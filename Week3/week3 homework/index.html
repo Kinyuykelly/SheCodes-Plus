@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>weather🌧</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="app">
+        <form action="" class="form">
+          <input type="text" class="input" placeholder="Type a city..." />
+          <button id="searchbtn">search</button>
+        </form>
+        <h1>Sydney NSW, Australia</h1>
+        <ul class="current">
+          <li>Wednesday 22:00</li>
+          <li>Partly Cloudy</li>
+        </ul>
+		<div class="row">
+			<div class="left">
+				<img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" class="cloud-icon" alt="cloud">
+             <span class="temperature">19</span><span class="units">&deg;C | <a href="#">&deg;F</a></span>
+            </div>
+			<div class="right">
+                <ul>
+					<li>Precipitation: 0%</li>
+					<li>Humidity: 77%</li>
+					<li>Wind: 8 km/h</li>
+				  </ul>
+              </div>
+		</div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
