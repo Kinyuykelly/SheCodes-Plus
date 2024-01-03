@@ -28,7 +28,7 @@ function displayWeather() {
   if (weather.hasOwnProperty(city)) { 
     let celToFah = Math.round((weather[city].temp * 9 / 5 )+ 32);
     alert(
-      `It is currently ${weather[city].temp}°C (${celToFah}°F) in ${city} the humidity is ${weather[city].humidity}%.`
+      `It is currently ${Math.floor(weather[city].temp)}°C (${celToFah}°F) in ${city} the humidity is ${weather[city].humidity}%.`
     );
   } else {
     alert(
