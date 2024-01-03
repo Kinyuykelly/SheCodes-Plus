@@ -26,7 +26,6 @@ h1{
   flex-direction: row;
   justify-content: space-between;
 }
-
  .input{
   width: 418px;
   font-size: 16px;
@@ -35,8 +34,9 @@ h1{
   border: 1px solid #ced4da;
   box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
 }
-.input:active{
-  border: 1px solid #007bff;
+input[type = text]:focus{
+  outline: 1px solid #6cb1f5;
+  border: none;
 }
 .row{
   display: flex;
@@ -63,9 +63,6 @@ h1{
 #searchbtn:hover{
   background: #007bff;
   opacity: .9;
-
-
-  
 }
 li{
   list-style: none;
