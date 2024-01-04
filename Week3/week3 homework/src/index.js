@@ -20,7 +20,6 @@ let weather = {
     humidity: 20,
   },
 };
-
 // write your code here
 let city = prompt("Enter a city");
 city = city.toLowerCase();
