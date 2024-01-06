@@ -8,7 +8,7 @@ let lis = document.querySelectorAll(".country");
 console.log(lis)
 // Challenge 3
 // Add class special to the li with id special
-li.classList.add("");
+li.classList.add("special");
 // Challenge 4
 // In your code, replace the content of the element with id special
 // by your favorite country (other than Portugal of course)
