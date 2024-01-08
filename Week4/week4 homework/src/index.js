@@ -1,0 +1,9 @@
+let displayedDay = document.querySelector("span.current-day");
+let displayedTime = document.querySelector("span.current-time");
+let current = new Date();
+let days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+let day = days[current.getDay()];
+displayedDay.innerHTML = day;
+let hour = current.getHours();
+let minute = current.getMinutes();
+displayedTime.innerHTML = `${hour} : ${minute}`;
